@@ -50,7 +50,7 @@
                 };
 
                 scope.back = function () {
-                    if(scope.confirmDirty && ctrl.$dirty){
+                    if(scope.confirmDirty){
                         var modal = $modal.open({
                             template:
                             '<div>'+
